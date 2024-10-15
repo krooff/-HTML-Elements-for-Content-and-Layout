@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #1f1f1f;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    color: #ff5733;
+    text-decoration: underline;
+  }
+  
+  /* Image Gallery */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .image-container img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Call-to-Action Buttons */
+  .cta-buttons {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .cta {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cta:hover {
+    background-color: #c70039;
+    transform: scale(1.1);
+  }
+  
+  /* Multimedia Section */
+  .multimedia {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  video, audio {
+    margin: 10px;
+    max-width: 90%;
+    border-radius: 10px;
+  }
+  
+  /* Feedback Form */
+  .feedback {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .feedback form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .feedback input, 
+  .feedback textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: white;
+  }
+  
+  .feedback button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feedback button:hover {
+    background-color: #218838;
+  }
+  
